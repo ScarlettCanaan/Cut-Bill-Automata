@@ -1,0 +1,40 @@
+1.确定主题
+
+
+
+2.确定需求
+
+3.写出情景
+
+	图片->OCR->文字->服务器->google翻译->文字->client->print on Terminal
+
+4.确定架构
+	
+	include "xxx.h"
+
+	xxxx.h
+
+	void a()
+	int b(int a);
+
+4.切割模组
+	
+	DSP部分：
+	NUCLEO-F446RE
+		Implement Function：Image process、State Machine（MIAT：GRAFCET->State Machine Code -> Top-Down Design）
+
+	FPGA部分：
+
+		Implement Function：Image Control
+
+
+	Sensor部分：
+
+
+	Connect部分：
+
+	 PPI连线
+
+5.购买硬件
+
+	PPI模组
