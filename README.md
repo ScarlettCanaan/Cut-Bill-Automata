@@ -50,18 +50,31 @@ Acceptance Test Cases:
 User’s Manual:
 
 本成績系統配有一個camera用於拍攝影像
+
 兩個button 用於電源開關和啟動拍攝
+
 一個LCD屏 用於顯示當前狀態
+
 一個UART用於與PC連接
+
 一個MCU(STM32F429)用於system control
+
 一個FPGA用於image process&recognition
+
 一個Flash用於image buffer
+
 protocol為串口通信
+
 data format為JSON
+
 PC端配有一個demo軟體
 
+
 使用者按下電源開關(btn1) 系統啟動 準備完畢後LCD會顯示歡迎介面
-使用者按下啟動拍攝開關(btn2) camera拍下當前影像 裁剪出影像的票據 如果成功裁剪出票據LCD會顯示成功介面 同時UART開始向PC傳輸影像和票據資料
+
+使用者按下啟動拍攝開關(btn2) camera拍下當前影像 裁剪出影像的票據 如果成功裁剪出票據LCD會顯示成功介面
+
+同時UART開始向PC傳輸影像和票據資料
 
 系統可處理兩種異常 1) 輸入錯誤影像 2) 輸入不正確指令
 
