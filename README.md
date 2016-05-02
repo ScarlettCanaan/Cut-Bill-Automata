@@ -7,7 +7,7 @@ Project Theme:
 
 Requirement:
 
-	本系统实现银行票据的资料自动录入
+	本系統實現銀行票據的資料自動錄入
 
 Scenarios:
 
@@ -49,19 +49,19 @@ Acceptance Test Cases:
 
 User’s Manual:
 
-本成績系統配有一个camera用于拍摄影像
-两个button 用于电源开关和启动拍摄
-一个LCD屏 用于显示当前状态
-一个UART用于与PC连接
-一个MCU(STM32F429)用于system control
-一个FPGA用于image process&recognition
-一个Flash用于image buffer
-protocol为串口通信
-data format为JSON
-PC端配有一个demo软体
+本成績系統配有一個camera用於拍攝影像
+兩個button 用於電源開關和啟動拍攝
+一個LCD屏 用於顯示當前狀態
+一個UART用於與PC連接
+一個MCU(STM32F429)用於system control
+一個FPGA用於image process&recognition
+一個Flash用於image buffer
+protocol為串口通信
+data format為JSON
+PC端配有一個demo軟體
 
-使用者按下电源开关(btn1) 系统启动 准备完毕后LCD会显示欢迎界面
-使用者按下启动拍摄开关(btn2) camera拍下当前影像 裁剪出影像的票据 如果成功裁剪出票据LCD会显示成功界面 同时UART开始向PC传输影像和票据资料
+使用者按下電源開關(btn1) 系統啟動 準備完畢後LCD會顯示歡迎介面
+使用者按下啟動拍攝開關(btn2) camera拍下當前影像 裁剪出影像的票據 如果成功裁剪出票據LCD會顯示成功介面 同時UART開始向PC傳輸影像和票據資料
 
 系統可處理兩種異常 1) 輸入錯誤影像 2) 輸入不正確指令
 
@@ -81,8 +81,8 @@ Module cut:
 
 	communicate module:
 
-	 	UART连线
-	 	使用JSON格式传输资料
+	 	UART連線
+	 	使用JSON格式傳輸資料
 
 	Memory module:
 
