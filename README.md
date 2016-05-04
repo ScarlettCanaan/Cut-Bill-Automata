@@ -2,15 +2,15 @@
 Embeding System Design Final Project
 
 Project Theme:
-
+==============================================
 	Cut Bill & Word Recognition Automata
 
 Requirement:
-
-	本系統實現銀行票據的資料自動錄入
+=============================================
+	本系統對拍攝的票據影像做影像處理和OCR 辨識出票據文字 并將文字資料formating傳送至雲端 實現銀行票據的資料自動錄入
 
 Scenarios:
-
+=============================================
 	A user interface (aUI) : LCD
 	
 	A sensor(aS) : camera
@@ -30,7 +30,7 @@ Scenarios:
 	aCD sendImage&info
 
 Exceptional scenarios:
-
+=============================================
 	case 1:
 		aS takes a invalid photo
 		aUI print error info
@@ -40,7 +40,7 @@ Exceptional scenarios:
 		aUI print error info
 
 Acceptance Test Cases:
-	
+=============================================
 	case 1:
 
 	case 2:
@@ -48,7 +48,7 @@ Acceptance Test Cases:
 	case 3:
 
 User’s Manual:
-
+=============================================
 	本成績系統配有一個camera用於拍攝影像
 
 	兩個button 用於電源開關和啟動拍攝
@@ -79,9 +79,9 @@ User’s Manual:
 	系統可處理兩種異常 1) 輸入錯誤影像 2) 輸入不正確指令
 
 Architectural Design:
-
+=============================================
 Module cut:
-	
+=============================================
 	DSP module：
 	NUCLEO-F446RE
 		Implement Function：Image process、State Machine
@@ -102,11 +102,12 @@ Module cut:
 
 
 Detailed Design (design sketch and pseudo-code):
-
+=============================================
 	data structure:
 
 	algorithm:
 
 Examples of Unit Test Code:
-
+=============================================
 A Real Input Image:
+=============================================
