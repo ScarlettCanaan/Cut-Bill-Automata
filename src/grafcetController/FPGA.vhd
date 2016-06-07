@@ -23,7 +23,7 @@ grafcet2: process(clk,rst)
 begin 
    if rst='0' then X0<='1'; X1<='0'; X2<='0'; X3<='0';X4<='0';X5<='0';X6<='0';
    elsif clk'event and clk='1' then
-      if X0=¡®1¡¯ then X0<=¡®0¡¯; X1<=¡®1¡¯; 
+      if X0=Â¡Â®1Â¡Â¯ then X0<=Â¡Â®0Â¡Â¯; X1<=Â¡Â®1Â¡Â¯; 
       elsif X1='1' then X1<='0'; X2<='1';
       elsif X2='1' then X2<='0'; X3<='1';
       elsif X3='1' then X3<='0'; X4<='1';
