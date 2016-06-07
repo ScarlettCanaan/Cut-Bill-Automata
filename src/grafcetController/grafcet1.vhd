@@ -22,7 +22,7 @@ grafcet1: process(clk,rst)
 begin 
    if rst='0' then X0<='1'; X1<='0'; X2<='0'; 
    elsif clk'event and clk='1' then
-      if X0=¡®1¡¯ and Button=¡®1¡¯ then X0<=¡®0¡¯; X1<=¡®1¡¯; X2<=¡®1¡¯; 
+      if X0=Â¡Â®1Â¡Â¯ and Button=Â¡Â®1Â¡Â¯ then X0<=Â¡Â®0Â¡Â¯; X1<=Â¡Â®1Â¡Â¯; X2<=Â¡Â®1Â¡Â¯; 
       elsif X1='1' and Camera_Button='1' then X1<='0'; X2<='1';
       elsif X2='1' and Button='1' then X2<='0';  X1<='1';
       elsif X2='1' and Button='0' then X2<='0';  X0<='1';
