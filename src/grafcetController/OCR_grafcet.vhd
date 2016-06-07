@@ -2,7 +2,7 @@ int main(void)
 {
    while(1)
    {
-      grafcet4()£»
+      grafcet4()Â£Â»
     }
 }
 void grafcet4()
